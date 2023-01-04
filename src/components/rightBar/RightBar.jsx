@@ -1,199 +1,144 @@
 import "./rightBar.scss";
+import DP from "../../assets/display-picture.jpg";
 
 const RightBar = () => {
   return (
     <div className="rightBar">
       <div className="container">
         <div className="item">
-          <span>Suggestions For You</span>
+          <span>Best Restaurants in Dadar</span>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <span>Jane Doe</span>
+              <img src={DP} alt="" />
+              <span>Visawa Hotel</span>
             </div>
             <div className="buttons">
-              <button>follow</button>
-              <button>dismiss</button>
+              <button>FB</button>
+              <button>IG</button>
+              <button>TW</button>
+              <button>YT</button>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <span>Jane Doe</span>
+              <img src={DP} alt="" />
+              <span>Sujata Hotel</span>
             </div>
             <div className="buttons">
-              <button>follow</button>
-              <button>dismiss</button>
+              <button>FB</button>
+              <button>IG</button>
+              <button>TW</button>
+              <button>YT</button>
             </div>
           </div>
         </div>
         <div className="item">
-          <span>Latest Activities</span>
+          <span>Best Cafe in Dadar</span>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Fullyloaded</span> Was added just now
               </p>
             </div>
             <span>1 min ago</span>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Mumbai Bistro</span> Was added just now
               </p>
             </div>
             <span>1 min ago</span>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Roadside Pickup</span> Was added just now
               </p>
             </div>
             <span>1 min ago</span>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <p>
-                <span>Jane Doe</span> changed their cover picture
+                <span>Advertsment 3</span> Was added just now
               </p>
             </div>
             <span>1 min ago</span>
           </div>
         </div>
         <div className="item">
-          <span>Online Friends</span>
+          <span>Best Authentic Food in Dadar</span>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashok Vada Pav.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ramashrya Hotel.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <img src={DP} alt="" />
+
               <div className="online" />
-              <span>Jane Doe</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <div className="online" />
-              <span>Jane Doe</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <div className="online" />
-              <span>Jane Doe</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
-              <div className="online" />
-              <span>Jane Doe</span>
+              <span>Ashutosh K.</span>
             </div>
           </div>
         </div>

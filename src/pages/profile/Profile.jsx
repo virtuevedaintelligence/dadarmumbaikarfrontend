@@ -8,22 +8,18 @@ import PlaceIcon from "@mui/icons-material/Place";
 import LanguageIcon from "@mui/icons-material/Language";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import Posts from "../../components/posts/Posts"
+import Posts from "../../components/posts/Posts";
 
 const Profile = () => {
   return (
     <div className="profile">
       <div className="images">
         <img
-          src="https://images.pexels.com/photos/13440765/pexels-photo-13440765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/41466101_2201453329926668_2629953297343053824_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_ohc=JZt-mRZ_Mv0AX-CUkkG&_nc_ht=scontent-bom1-2.xx&oh=00_AfAMKNO4Q8zg8NLK2EF8KLcESnIH117CxjUYixQ4NXq-tw&oe=63DD05DE"
           alt=""
           className="cover"
         />
-        <img
-          src="https://images.pexels.com/photos/14028501/pexels-photo-14028501.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
-          alt=""
-          className="profilePic"
-        />
+        <img src="https://kolambkarashutosh.000webhostapp.com/img/display-picture.jpg" alt="" className="profilePic" />
       </div>
       <div className="profileContainer">
         <div className="uInfo">
@@ -45,11 +41,11 @@ const Profile = () => {
             </a>
           </div>
           <div className="center">
-            <span>Jane Doe</span>
+            <span>Ashutosh K.</span>
             <div className="info">
               <div className="item">
                 <PlaceIcon />
-                <span>USA</span>
+                <span>Dadar, Mumbai</span>
               </div>
               <div className="item">
                 <LanguageIcon />
@@ -63,7 +59,7 @@ const Profile = () => {
             <MoreVertIcon />
           </div>
         </div>
-      <Posts/>
+        <Posts />
       </div>
     </div>
   );
