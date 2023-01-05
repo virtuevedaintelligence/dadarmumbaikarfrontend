@@ -13,21 +13,9 @@ const Login = () => {
   return (
     <div className="login">
       <div className="card">
-        <div className="left">
-          <h1>Welcome to DadarMumbaikar</h1>
-          <p>
-            DadarMumbaikar helps you to get all things which are going in Dadar.
-            We have information about all great shops, restuarants, authentic food spot, and many more.
-            Have best exprience by registering to DadarMumbaikar.
-            Waiting to see you as a logged in user.
-          </p>
-          <span>Don't you have an account?</span>
-          <Link to="/register">
-            <button>Register</button>
-          </Link>
-        </div>
         <div className="right">
-          <h1>Login</h1>
+          <h1>Welcome to DadarMumbaikar</h1>
+          <p> DadarMumbaikar helps you to get all things which are going in Dadar. We have information about all great shops, restuarants, authentic food spot, and many more. Have best exprience by registering to DadarMumbaikar. Waiting to see you as a logged in user.           </p>
           <form>
             <input type="text" placeholder="Username" />
             <input type="password" placeholder="Password" />
