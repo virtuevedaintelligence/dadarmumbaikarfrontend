@@ -9,17 +9,15 @@ import LanguageIcon from "@mui/icons-material/Language";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import Posts from "../../components/posts/Posts";
+import dp from "../../assets/display-picture.jpg";
+import coverPic from "../../assets/cover.jpeg";
 
 const Profile = () => {
   return (
     <div className="profile">
       <div className="images">
-        <img
-          src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/41466101_2201453329926668_2629953297343053824_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_ohc=JZt-mRZ_Mv0AX-CUkkG&_nc_ht=scontent-bom1-2.xx&oh=00_AfAMKNO4Q8zg8NLK2EF8KLcESnIH117CxjUYixQ4NXq-tw&oe=63DD05DE"
-          alt=""
-          className="cover"
-        />
-        <img src="https://kolambkarashutosh.000webhostapp.com/img/display-picture.jpg" alt="" className="profilePic" />
+        <img src={coverPic} alt="" className="cover" />
+        <img src={dp} alt="" className="profilePic" />
       </div>
       <div className="profileContainer">
         <div className="uInfo">
